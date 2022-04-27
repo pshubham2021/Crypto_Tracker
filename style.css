@@ -1,0 +1,172 @@
+body {
+  background-color: rgb(155, 235, 188);
+  background-attachment: fixed;
+  font-family: system-ui;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+}
+
+#main {
+  margin: 0;
+  width: 100%;
+  height: 90px;
+  background-color: rgb(122, 86, 190);
+  display: flex;
+  align-items: left;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+#main:hover {
+  background-color: wheat;
+}
+
+#main div {
+  flex: 1;
+}
+
+img {
+  margin: 2em 2em 2em 5em;
+  height: 60%;
+  width: 20%;
+}
+h1 {
+  padding-left: 3em;
+  color: brown;
+  font-size: xx-large;
+}
+.result-container {
+  display: none;
+}
+
+.upload-container {
+  height: fit-content;
+  width: 60%;
+  margin: 50px 20px 10px 20px;
+  background: #fff;
+  border-radius: 25px;
+  box-shadow: 0px 20px 20px #9fa093;
+}
+.upload-zone {
+  margin: 0em 1em 1em 0em;
+  height: fit-content;
+  width: 100%;
+  border: 2px dashed black;
+  border-radius: 10px;
+  transform: scale(0.9);
+}
+
+#coinType {
+  margin: 20px 10px 5px 0px;
+  width: 300px;
+  height: 25px;
+  color: darkblue;
+  background-color: darkorange;
+}
+#Get-Price:hover {
+  background-color: red;
+  color: black;
+}
+#Get-Price {
+  width: 6em;
+  height: 2em;
+  color: blue;
+  background-color: yellow;
+}
+
+.result-part {
+  margin: 5px 0px 5px 0px;
+}
+
+table.result-container {
+  font-family: arial, sans-serif;
+  border-style: double;
+  width: 100%;
+}
+
+td,
+th {
+  border: 2px solid #a32727;
+  text-align: center;
+  padding: 8px;
+}
+
+th {
+  background-color: #e0ec6c;
+}
+
+.footer-part {
+  margin-bottom: 0%;
+  width: 100%;
+  height: 200px;
+  background-color: rgb(63, 206, 231);
+  background-attachment: fixed;
+}
+div.footer-part > h4 {
+  padding: 5%;
+}
+
+div.body-part {
+  margin: 10% 5% 5% 10%;
+  padding: auto;
+  height: fit-content;
+  width: 80%;
+  background-color: lightslategray;
+  background-attachment: scroll;
+  border: 2px dashed red;
+  opacity: 0.9;
+}
+div.cont-part {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+}
+div.cont-part img {
+  margin: 5% 5% 5% 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.part1 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 300px;
+}
+
+.part2 {
+  float: left;
+  width: 70%;
+  padding: 10px;
+  height: 300px;
+}
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+div.photo > img {
+  border-radius: 50%;
+  box-shadow: 0px 30px 30px rosybrown;
+}
+
+h2 {
+  color: #a32727;
+  font-size: xx-large;
+}
+
+h3 {
+  color: blue;
+  font-size: x-large;
+}
+
+li {
+  color: rgb(2, 66, 2);
+  font-size: medium;
+}

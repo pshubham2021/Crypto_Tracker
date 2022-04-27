@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Crypto Tracker</title>
+     <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+ rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+ crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Shubhampjpt.com</a>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" name="query" id="query" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success " onClick="window.open('http://www.google.com/search?q='+query.value);"  type="submit">Search</button>
+          </form>
+      </div>
+    </nav>
+<div id="main">
+    <div class="logo-img" ><img src="bitcoin.png"></div>
+    <div  class="logo-name"><h1>Crypto Tracker</h1></div>  
+    <div> </div>  
+  </div>
+ <center>
+<section class="upload-container">
+    <div class="upload-zone">
+            <form action="" id="searchForm">
+                <select name="coinType" id="coinType">
+                    <option value="btc-usd">Bitcoin-USD</option>
+                    <option value="doge-usd">Dogecoin-USD</option>
+                    <option value="eth-usd">Etherum-USD</option>
+                    <option value="btc-doge">bitcoin-dogecoin</option>
+                    <option value="bnb-usd">Binance-USD</option>
+                </select>
+                <button type="submit" id="Get-Price">Get-Price</button>
+            </form>
+            <div class="result-part">
+              <table class="table-result">
+
+              </table>
+            </div>
+    </div>  
+  </section>
+<div class="body-part">
+  <div class="cont-part">
+    <h2>Greater Noida Institute Of Technology,Greater Noida</h2>
+    <div class="photo"><img src="Shubham-Prajapati.jpg" alt="Shubham-Prajapati-Image" width="200px" height="300px"></div>
+    <div class="into">
+      <ul type="none">
+        <li><h3>Shubham Prajapati</h3></li>
+        <li>B.tech(Information Technology)</li>
+        <li>Roll-No:-1813213087, EMAIL:-
+          Pshubham2021@gmail.com
+          </li>
+          <li></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="footer-part">
+ <h4>Copyright © All rights reserved.   |   Privacy Policy</h4>
+</div>
+</center>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+crossorigin="anonymous"></script>
+<script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: '24ebac82-0e56-446c-85f7-fb5a3cfabb52', f: true }); done = true; } }; })();</script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+
